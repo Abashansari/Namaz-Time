@@ -83,38 +83,37 @@ export default function About() {
         </div>
 
 
-  <h3 className="fw-bold mt-6 text-center">A Note About Accuracy...</h3>
-<div className="card shadow-lg border-0 p-4" style={{ backgroundColor: '#ffffff' }}>
-  <p className="text-muted" style={{ lineHeight: '1.8' }}>
-    Our app calculates prayer times using the <strong>Muslim World League (MWL)</strong> method for Fajr 
-    and Isha, and the <strong>Hanafi</strong> madhab for Asr. These settings are mathematically valid 
-    anywhere in the world — however, different countries and local mosques sometimes use different 
-    standards.
-  </p>
+        <h3 className="fw-bold mt-6 text-center">A Note About Accuracy...</h3>
+        <div className="card shadow-lg border-0 p-4" style={{ backgroundColor: '#ffffff' }}>
+          <p className="text-muted" style={{ lineHeight: '1.8' }}>
+            Our app calculates prayer times using the <strong>Muslim World League (MWL)</strong> method for Fajr
+            and Isha, and the <strong>Hanafi</strong> madhab for Asr. These settings are mathematically valid
+            anywhere in the world — however, different countries and local mosques sometimes use different
+            standards.
+          </p>
 
-  <p className="text-muted" style={{ lineHeight: '1.8' }}>
-    For example, regions like the USA and Canada commonly follow the <strong>ISNA</strong> method, 
-    Saudi Arabia uses <strong>Umm al-Qura</strong>, Pakistan and India use the <strong>Karachi</strong> method, 
-    and many Middle Eastern and African countries follow the <strong>Egyptian</strong> method.
-  </p>
+          <p className="text-muted" style={{ lineHeight: '1.8' }}>
+            For example, regions like the USA and Canada commonly follow the <strong>ISNA</strong> method,
+            Saudi Arabia uses <strong>Umm al-Qura</strong>, Pakistan and India use the <strong>Karachi</strong> method,
+            and many Middle Eastern and African countries follow the <strong>Egyptian</strong> method.
+          </p>
 
-  <p className="text-muted" style={{ lineHeight: '1.8' }}>
-    Similarly, Asr time differs depending on madhab: <strong>Hanafi</strong> calculates Asr slightly later, 
-    while the <strong>Shafi / Maliki / Hanbali</strong> method is earlier and used across the Arab world, 
-    Africa, Southeast Asia, Europe, and the United States.
-  </p>
+          <p className="text-muted" style={{ lineHeight: '1.8' }}>
+            Similarly, Asr time differs depending on madhab: <strong>Hanafi</strong> calculates Asr slightly later,
+            while the <strong>Shafi / Maliki / Hanbali</strong> method is earlier and used across the Arab world,
+            Africa, Southeast Asia, Europe, and the United States.
+          </p>
 
-  <p className="text-muted" style={{ lineHeight: '1.8' }}>
-    As a result, your prayer times in this app may differ by a few minutes compared to some local 
-    mosque schedules in certain regions. We are continuously working to add an option so you can 
-    choose your preferred calculation method and madhab for complete accuracy based on your location.
-  </p>
+          <p className="text-muted" style={{ lineHeight: '1.8' }}>
+            As a result, your prayer times in this app may differ by a few minutes compared to some local
+            mosque schedules in certain regions. We are continuously working to add an option so you can
+            choose your preferred calculation method and madhab for complete accuracy based on your location.
+          </p>
 
-  <p className="fw-semibold text-center mt-3 text-success">
-    Your trust matters to us — and our goal is to provide the most reliable prayer times for every Muslim, everywhere.
-  </p>
-</div>
-
+          <p className="fw-semibold text-center mt-3 text-success">
+            Your trust matters to us — and our goal is to provide the most reliable prayer times for every Muslim, everywhere.
+          </p>
+        </div>
       </div>
     </div>
   )

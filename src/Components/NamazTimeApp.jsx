@@ -8,6 +8,7 @@ import About from '../Pages/About'
 import AboutNamaz from '../Pages/AboutNamaz'
 import Login from '../Pages/Login'
 import Register from '../Pages/Register'
+import Footer from './Footer'
 
 export default function NamazTimeApp() {
   return (
@@ -21,6 +22,7 @@ export default function NamazTimeApp() {
                 <Route path='/login' element={<Login />} />
                 <Route path='/register' element={<Register />} />
             </Routes>
+            <Footer />
         </Router>
         
     </div>

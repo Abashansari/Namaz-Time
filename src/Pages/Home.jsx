@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import TouchAppIcon from '@mui/icons-material/TouchApp';
 import namazeImage from '/namazeImage.webp'
+import PrayersTimeTable from '../Components/PrayersTimeTable';
 
 export default function HomeBody1() {
+  const [showTable,setShowTable] = useState(false)
+
   return (
     <div className='container my-5'>
       <h2 className='text-dark fw-bold mb-4 text-center'>“Stay connected to your prayers, wherever you are.”</h2>
@@ -20,16 +23,19 @@ export default function HomeBody1() {
           </div>
           {/* Image Section */}
           <div className="col-md-4">
-            <img src={namazeImage} className="img-fluid w-100 h-100 rounded-start shadow-sm border border-2 rounded" alt="Abash - Human Rights Advocate" style={{ objectFit: 'cover', minHeight: '300px' }} />
+            <img src={namazeImage} className="img-fluid w-100 h-100 rounded-start shadow-sm border border-2 rounded" alt="namze Image" style={{ objectFit: 'cover', minHeight: '300px' }} />
           </div>
 
           <div className='container md-6 col-6 d-flex'>
             <p className="card-text text-dark me-3  fw-bold">Find my Location :</p>
 
-            <button className="btn btn-dark px-6">
+            <button className="btn btn-dark px-6" onClick={()=>setShowTable(true)}>
               Click Me <TouchAppIcon className="me-2" /> 
             </button>            
           </div>
+          {showTable && 
+            <PrayersTimeTable />
+          }
         </div>
       </div>
     </div>
